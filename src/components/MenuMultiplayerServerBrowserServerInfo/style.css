@@ -1,0 +1,814 @@
+.menu-multiplayer {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.menu-multiplayer .menu-background {
+  height: 1080px;
+  object-fit: cover;
+  position: relative;
+  width: 1920px;
+}
+
+.menu-multiplayer .menu-darker-BG {
+  background-color: #000c13;
+  height: 1113px;
+  left: -20px;
+  opacity: 0.6;
+  position: absolute;
+  top: -14px;
+  width: 1953px;
+}
+
+.menu-multiplayer .side-menu {
+  height: 1080px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 121px;
+}
+
+.menu-multiplayer .overlap {
+  height: 1080px;
+  position: relative;
+}
+
+.menu-multiplayer .overlap-group-2 {
+  height: 1080px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 91px;
+}
+
+.menu-multiplayer .side-menu-line {
+  height: 1080px;
+  left: 53px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.menu-multiplayer .side-menu-misc-2 {
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 957px;
+  width: 91px;
+}
+
+.menu-multiplayer .design-component-instance-node {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.menu-multiplayer .side-menu-misc-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 48px !important;
+}
+
+.menu-multiplayer .side-menu-games {
+  height: 240px;
+  left: 0;
+  position: absolute;
+  top: 208px;
+  width: 58px;
+}
+
+.menu-multiplayer .side-menu-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 128px !important;
+}
+
+.menu-multiplayer .side-menu-other {
+  height: 164px;
+  left: 18px;
+  position: absolute;
+  top: 468px;
+  width: 40px;
+}
+
+.menu-multiplayer .side-menu-2 {
+  left: 4px !important;
+  position: absolute !important;
+  top: 132px !important;
+}
+
+.menu-multiplayer .side-menu-3 {
+  left: 4px !important;
+  top: 68px !important;
+}
+
+.menu-multiplayer .invite-instance {
+  left: 1819px !important;
+  position: absolute !important;
+  top: 59px !important;
+}
+
+.menu-multiplayer .browser-SI-next-w {
+  height: 178px;
+  left: 129px;
+  position: absolute;
+  top: 1007px;
+  width: 1380px;
+}
+
+.menu-multiplayer .browser-SI-next {
+  height: 178px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .overlap-2 {
+  height: 178px;
+  position: relative;
+}
+
+.menu-multiplayer .browser-SI-next-bg {
+  background-color: var(--black);
+  height: 178px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .overlap-group-wrapper {
+  height: 76px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .overlap-group-3 {
+  height: 76px;
+  position: relative;
+}
+
+.menu-multiplayer .img {
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-next-2 {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(16, 16, 16) 100%
+  );
+  height: 76px;
+  left: 0;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-next-info {
+  height: 44px;
+  left: 24px;
+  position: absolute;
+  top: 98px;
+  width: 262px;
+}
+
+.menu-multiplayer .text-wrapper-2 {
+  color: var(--white);
+  font-family: "Rajdhani-Bold", Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.76px;
+  line-height: 22px;
+  position: absolute;
+  top: 22px;
+  width: 258px;
+}
+
+.menu-multiplayer .conquest-large {
+  color: var(--white);
+  font-family: "Rajdhani-Bold", Helvetica;
+  font-size: 19px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.76px;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  width: 258px;
+}
+
+.menu-multiplayer .overlap-wrapper {
+  height: 178px;
+  left: 352px;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .div-wrapper {
+  height: 178px;
+  left: 704px;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-next-3 {
+  height: 178px;
+  left: 1056px;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.menu-multiplayer .map-rotation {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 129px;
+  letter-spacing: 1.26px;
+  line-height: normal;
+  position: absolute;
+  top: 970px;
+}
+
+.menu-multiplayer .rectangle-4 {
+  background: linear-gradient(
+    180deg,
+    rgba(16, 16, 16, 0) 0%,
+    rgb(0, 101.07, 123.25) 100%
+  );
+  height: 51px;
+  left: 129px;
+  position: absolute;
+  top: 1049px;
+  width: 1382px;
+}
+
+.menu-multiplayer .browser-SI-settings {
+  height: 391px;
+  left: 130px;
+  position: absolute;
+  top: 542px;
+  width: 1028px;
+}
+
+.menu-multiplayer .browser-SI-rules {
+  height: 270px;
+  left: 704px;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.menu-multiplayer .text-wrapper-3 {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 17px;
+  letter-spacing: 1.26px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .div-3 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 33px;
+  width: 324px;
+}
+
+.menu-multiplayer .div-4 {
+  height: 20px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 288px;
+}
+
+.menu-multiplayer .text-wrapper-4 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .text-wrapper-5 {
+  color: #f3f300;
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 257px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .line-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 324px;
+}
+
+.menu-multiplayer .div-5 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 63px;
+  width: 324px;
+}
+
+.menu-multiplayer .text-wrapper-6 {
+  color: #f3f300;
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 267px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .div-6 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 94px;
+  width: 324px;
+}
+
+.menu-multiplayer .text-wrapper-7 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 260px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .div-7 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 124px;
+  width: 324px;
+}
+
+.menu-multiplayer .text-wrapper-8 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 276px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .div-8 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 154px;
+  width: 324px;
+}
+
+.menu-multiplayer .div-9 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 184px;
+  width: 324px;
+}
+
+.menu-multiplayer .div-10 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 214px;
+  width: 324px;
+}
+
+.menu-multiplayer .text-wrapper-9 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 258px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .div-11 {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 244px;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-advanced {
+  height: 391px;
+  left: 352px;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.menu-multiplayer .on {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 265px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .off {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 259px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .browser-SI-killcam-w {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 275px;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-friendly {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 305px;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-spotting {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 335px;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-enemy-w {
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 365px;
+  width: 324px;
+}
+
+.menu-multiplayer .browser-SI-settings-2 {
+  height: 180px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 326px;
+}
+
+.menu-multiplayer .browser-SI-region-w-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 33px !important;
+}
+
+.menu-multiplayer .normal {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 226px;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 0;
+}
+
+.menu-multiplayer .browser-SI-current {
+  height: 52px;
+  left: 130px;
+  position: absolute;
+  top: 464px;
+  width: 508px;
+}
+
+.menu-multiplayer .browser-SI-tickrate {
+  height: 52px;
+  left: 432px;
+  position: absolute;
+  top: 0;
+  width: 80px;
+}
+
+.menu-multiplayer .overlap-group-4 {
+  height: 52px;
+  position: relative;
+  width: 76px;
+}
+
+.menu-multiplayer .text-wrapper-10 {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 30px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 1.80px;
+  line-height: normal;
+  position: absolute;
+  top: 14px;
+}
+
+.menu-multiplayer .text-wrapper-11 {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 1.08px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .browser-SI-ping {
+  height: 52px;
+  left: 215px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.menu-multiplayer .overlap-3 {
+  height: 52px;
+  position: relative;
+  width: 71px;
+}
+
+.menu-multiplayer .browser-SI-players {
+  height: 52px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 87px;
+}
+
+.menu-multiplayer .overlap-4 {
+  height: 52px;
+  position: relative;
+  width: 83px;
+}
+
+.menu-multiplayer .browser-SI-buttons-2 {
+  height: 56px;
+  left: 131px;
+  position: absolute;
+  top: 381px;
+  width: 1162px;
+}
+
+.menu-multiplayer .browser-SI-buttons-instance {
+  left: 332px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.menu-multiplayer .browser-SI-buttons-3 {
+  left: 664px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.menu-multiplayer .browser-SI-buttons-4 {
+  left: 996px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.menu-multiplayer .browser-SI-intro {
+  height: 146px;
+  left: 130px;
+  position: absolute;
+  top: 201px;
+  width: 869px;
+}
+
+.menu-multiplayer .server-protected-by {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0.54px;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  top: 100px;
+}
+
+.menu-multiplayer .browser-SI-info {
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 63px;
+  width: 497px;
+}
+
+.menu-multiplayer .conquest-large-siege {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 24px;
+  letter-spacing: 1.08px;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .germany-flag {
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 16px;
+}
+
+.menu-multiplayer .line-3 {
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: -4px;
+  width: 16px;
+}
+
+.menu-multiplayer .line-4 {
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.menu-multiplayer .line-5 {
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 4px;
+  width: 16px;
+}
+
+.menu-multiplayer .p {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 36px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 2.16px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .browser-breadcrumb-2 {
+  height: 85px;
+  left: 131px;
+  position: absolute;
+  top: 36px;
+  width: 356px;
+}
+
+.menu-multiplayer .overlap-5 {
+  height: 85px;
+  position: relative;
+  width: 360px;
+}
+
+.menu-multiplayer .server-info {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 46px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 1.38px;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+}
+
+.menu-multiplayer .browser-breadcrumb-3 {
+  height: 31px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.menu-multiplayer .browser-breadcrumb-previous {
+  left: 33px !important;
+  position: absolute !important;
+  top: 5px !important;
+}
+
+.menu-multiplayer .server-browser {
+  color: var(--white);
+  font-family: "Rajdhani-SemiBold", Helvetica;
+  font-size: 18px;
+  font-weight: 600;
+  left: 179px;
+  letter-spacing: 1.08px;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+}
+
+.menu-multiplayer .text-wrapper-12 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 159px;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .text-wrapper-13 {
+  color: var(--white);
+  font-family: "Rajdhani-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  left: 344px;
+  letter-spacing: 1.44px;
+  line-height: normal;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+
+.menu-multiplayer .back-instance {
+  left: -1px !important;
+  top: 9px !important;
+}
